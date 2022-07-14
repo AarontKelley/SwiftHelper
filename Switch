@@ -1,0 +1,14 @@
+The switch operator is great for checking multiple conditions.
+EXAMPLE:
+let weather = "sunny"
+switch weather {
+case rain:
+  print("Bring an umbrella")
+case snow:
+  print("Better put some layers on today")
+ case sunny:
+  print("Bring sunscreen it's going to be a scorcher")
+ default:      --important to have if no conditions are met
+   print("Enjoy your day")
+   
+   This will print Bring sunscreen it's going to be a scorcher
